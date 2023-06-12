@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="menu">
+      <div class="logo">
+        <span class="logoH1">ChoGit</span>
+        <span>chocho.company </span>
+      </div>
+      <div class="searchBlock">
+        <form onsubmit="getUsersByTag(event)">
+          <input type="text" id="search" placeholder="Enter user">
+          <button type=" submit" id="button">Search</button>
+        </form>
+      </div>
+    </div>
+    <div class="card" id="card">
+      <img id="img" src="" alt="">
+      <h3><span id="idUser"></span></h3>
+      <h3><span id="followers"></span></h3>
+      <h3><span id="following"></span></h3>
+      <h3><span id="repositories"></span></h3>
+
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
