@@ -19,11 +19,14 @@
         <form onsubmit="getUsersByTag(event)">
           <input type="text" id="search" placeholder="Enter user">
           <button type=" submit" id="button">Search</button>
+          <button onclick="clearInput()" id="button">Clear</button>
+
         </form>
       </div>
     </div>
     <div class="card" id="card">
       <img id="img" src="" alt="">
+      <h3><span id="login"></span></h3>
       <h3><span id="idUser"></span></h3>
       <h3><span id="followers"></span></h3>
       <h3><span id="following"></span></h3>

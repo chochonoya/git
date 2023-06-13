@@ -3,7 +3,7 @@ body {
   padding: 0;
 }
 .wrapper {
-  height: 100vh;
+  height: 115vh;
   display: flex;
   flex-direction: column;
   background-image: url(bg.gif);
@@ -39,6 +39,13 @@ button {
   color: #63717f;
   border-radius: 5px;
   padding: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #63717f;
+  color: #181830;
 }
 .logo {
   display: flex;
